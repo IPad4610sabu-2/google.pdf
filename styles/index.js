@@ -21,19 +21,19 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/" className={styles.card}>
+          <Link href="/5.pdf" className={styles.card}>
             <h2>个人信息 &rarr;</h2>
-            <p>配置您的个人相关信息</p>
+            <p>あなたの個人関連情報を設定する</p>
           </Link>
 
-          <Link href="/" className={styles.card}>
+          <Link href="/5.pdf" className={styles.card}>
             <h2>我的发布 &rarr;</h2>
-            <p>查看您以往发布的内容</p>
+            <p>過去に発表した内容を確認する</p>
           </Link>
 
-          <Link href="/" className={styles.card}>
+          <Link href="/5.pdf" className={styles.card}>
             <h2>探索发现 &rarr;</h2>
-            <p>探索和你一样有趣的人</p>
+            <p>あなたと同じ面白い人を探る</p>
           </Link>
 
           <Link
